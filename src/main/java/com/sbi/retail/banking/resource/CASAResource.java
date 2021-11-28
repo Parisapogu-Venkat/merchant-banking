@@ -19,7 +19,9 @@ public class CASAResource {
 		accountDetails.setAccountHolderName("Pithre/Goya");
 		accountDetails.setAccountNo("A/c123432");
 		accountDetails.setCurrentAccountBalance(20000);
+
 		System.out.println("Inserted........................");
+		System.out.println("Text inserted.............");
 		accountDetails.setSavingsAccountBalance(30000);
 		
 		return new ResponseEntity<AccountDetails>(accountDetails,HttpStatus.OK);

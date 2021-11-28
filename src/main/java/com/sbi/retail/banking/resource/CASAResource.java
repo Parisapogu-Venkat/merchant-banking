@@ -15,12 +15,6 @@ public class CASAResource {
 		System.out.println("Request from client: "+accountNumber);
 		
 		AccountDetails accountDetails=new AccountDetails();
-		accountDetails.setAccountHolderName("Pithre Goya");
-		accountDetails.setAccountNo("A/c123432");
-		accountDetails.setCurrentAccountBalance(20000);
-		accountDetails.setSavingsAccountBalance(30000);
-			
-		System.out.println("Account details: "+accountDetails);
 		 accountDetails=new AccountDetails();
 		accountDetails.setAccountHolderName("Pithre Goya");
 		accountDetails.setAccountNo("A/c123432");

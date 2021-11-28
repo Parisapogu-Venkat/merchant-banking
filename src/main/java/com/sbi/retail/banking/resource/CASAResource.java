@@ -16,15 +16,14 @@ public class CASAResource {
 		
 		AccountDetails accountDetails=new AccountDetails();
 		 accountDetails=new AccountDetails();
-		 
-		 
-		 
-		 
-		 
-		 
-		 
 		accountDetails.setAccountHolderName("Pithre/Goya");
 		accountDetails.setAccountNo("A/c123432");
+		
+		
+		
+		System.out.println("Data:"+accountDetails);
+		
+		
 		accountDetails.setCurrentAccountBalance(20000);
 		accountDetails.setSavingsAccountBalance(30000);
 		

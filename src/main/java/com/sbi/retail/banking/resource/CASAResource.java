@@ -20,6 +20,7 @@ public class CASAResource {
 		System.out.println("Text modifying................");
 		accountDetails.setAccountNo("A/c123432");
 		accountDetails.setCurrentAccountBalance(20000);
+		System.out.println("Modified2................");
 		accountDetails.setSavingsAccountBalance(30000);
 		
 		return new ResponseEntity<AccountDetails>(accountDetails,HttpStatus.OK);

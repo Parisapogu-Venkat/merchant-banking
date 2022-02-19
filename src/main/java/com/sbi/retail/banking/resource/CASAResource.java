@@ -21,7 +21,7 @@ public class CASAResource {
 		System.out.println("Modified................");
 		accountDetails.setAccountNo("A/c123432");
 		accountDetails.setCurrentAccountBalance(20000);
-		accountDetails.setSavingsAccountBalance(40000);
+		accountDetails.setSavingsAccountBalance(50000);
 		
 		return new ResponseEntity<AccountDetails>(accountDetails,HttpStatus.OK);
 	}

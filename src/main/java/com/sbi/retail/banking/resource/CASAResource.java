@@ -23,6 +23,7 @@ public class CASAResource {
 		accountDetails.setCurrentAccountBalance(20000);
 		accountDetails.setSavingsAccountBalance(50000);
 		System.out.println("Developed");
+		System.out.println("Added");
 		return new ResponseEntity<AccountDetails>(accountDetails,HttpStatus.OK);
 	}
 }

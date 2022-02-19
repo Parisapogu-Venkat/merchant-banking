@@ -17,7 +17,7 @@ public class CASAResource {
 		AccountDetails accountDetails=new AccountDetails();
 		 accountDetails=new AccountDetails();
 		accountDetails.setAccountHolderName("Pithre/Goya");
-		System.out.println("I modified here.");
+		System.out.println("Deleted here.");
 		accountDetails.setAccountNo("A/c123432");
 		accountDetails.setCurrentAccountBalance(20000);
 		accountDetails.setSavingsAccountBalance(50000);

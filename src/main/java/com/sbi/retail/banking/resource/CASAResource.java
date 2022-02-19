@@ -15,7 +15,7 @@ public class CASAResource {
 		System.out.println("Request from client: "+accountNumber);
 		
 		AccountDetails accountDetails=new AccountDetails();
-		 accountDetails=new AccountDetails();
+		accountDetails=new AccountDetails();
 		accountDetails.setAccountHolderName("Pithre/Goya");
 		System.out.println("Deleted here.");
 		System.out.println("Modified..........");

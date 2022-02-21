@@ -23,6 +23,7 @@ public class CASAResource {
 		System.out.println("CONFLICT");
 		System.out.println("Resolved");
 		System.out.println("Hiii");
+		System.out.println("Hello, GIT");
 		return new ResponseEntity<AccountDetails>(accountDetails,HttpStatus.OK);
 	}
 }

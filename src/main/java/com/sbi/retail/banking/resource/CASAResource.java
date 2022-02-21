@@ -21,6 +21,7 @@ public class CASAResource {
 		accountDetails.setSavingsAccountBalance(50000);
 		System.out.println("Started");
 		System.out.println("CONFLICT");
+		System.out.println("Resolved");
 		return new ResponseEntity<AccountDetails>(accountDetails,HttpStatus.OK);
 	}
 }

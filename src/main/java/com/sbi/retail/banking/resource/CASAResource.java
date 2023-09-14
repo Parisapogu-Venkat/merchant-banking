@@ -4,21 +4,26 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.sbi.retail.banking.dto.AccountDetails;
-
+@RestController
 public class CASAResource {
 	@GetMapping(path = "/casa",produces = "application/json")
 	public ResponseEntity<AccountDetails> casaEnquiry(@RequestParam("accountNumber") String accountNumber) {
 		System.out.println("Request from client: "+accountNumber);
 		
 		AccountDetails accountDetails=new AccountDetails();
-		 accountDetails=new AccountDetails();
+		accountDetails=new AccountDetails();
 		accountDetails.setAccountHolderName("Pithre/Goya");
 		accountDetails.setAccountNo("A/c123432");
 		accountDetails.setCurrentAccountBalance(20000);
 		accountDetails.setSavingsAccountBalance(50000);
-		System.out.println("Developed");
+		System.out.println("Started");
+		System.out.println("CONFLICT");
+		System.out.println("Resolved");
+		System.out.println("Hiii");
+		System.out.println("Hello, GIT");
 		return new ResponseEntity<AccountDetails>(accountDetails,HttpStatus.OK);
 	}
 }
